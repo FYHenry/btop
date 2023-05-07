@@ -236,7 +236,7 @@ install:
 	@cp -p Img/icon.svg $(DESTDIR)$(PREFIX)/share/icons/hicolor/scalable/apps/btop.svg
 	@printf "\033[1;92mInstalling manpage to: \033[1;97m$(DESTDIR)$(PREFIX)/share/man/man1/btop.1\033[0m\n"
 	@mkdir -p $(DESTDIR)$(PREFIX)/share/man/man1/
-	@cp -p man/man1/btop.1 $(DESTDIR)$(PREFIX)/share/man/man1/btop.1
+	@cp -p man/btop.1 $(DESTDIR)$(PREFIX)/share/man/man1/btop.1
 
 
 #? Set SUID bit for btop as $SU_USER in $SU_GROUP
